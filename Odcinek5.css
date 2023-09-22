@@ -1,0 +1,69 @@
+
+
+*{
+
+    background-color: #23232E;
+}
+
+#container{
+    text-align: center;
+}
+
+#Main-text{
+    color: #01B2A2;
+}
+
+#text-top{
+    font-size: 51px;
+    font-family: 'Lobster Two', cursive;
+}
+#text-bottom{
+    margin-top: 20px;
+    font-size: 31px;
+    font-family: 'Courgette', cursive;
+}
+
+#Cards{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 700px;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+    color: orangered;
+}
+
+.cards{
+    width: 19%;
+    border: 3px solid #01B2A2;
+}
+
+.cards:hover{
+    border: 3px solid orange;
+    transition: all 0.2s;
+}
+
+#Display{
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+    color: orangered;
+}
+
+#Turn{
+    color: #01B2A2;
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.reload-link{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.reload-link:hover{
+    cursor: pointer;
+    color: coral;
+}
